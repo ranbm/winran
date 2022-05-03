@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "target": "es5",
+    "types": ["react/next", "react-dom/next"],
+    "lib": [
+      "es2017",
+      "es6",
+      "dom"
+    ],
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "src"
+  ]
+}
